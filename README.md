@@ -38,6 +38,18 @@ The project uses a locally optimized LLM for inference.
 
 # Run once to setup model
 python app.py
+Here’s your updated `README.md` section including the links to the **project report** and **presentation PPT**:
+
+---
+
+## 📄 Project Documentation
+
+- 📘 **Final Report**: [View Report](https://drive.google.com/drive/folders/1IgPO32Q_o0aIkSnVzedlvs4I4-2yFsxa?usp=sharing)  
+- 📊 **Project Presentation**: [View PPT](https://drive.google.com/file/d/1xrCkmmisPvrbDyK5mI_bkB3RikvnmBF5/view?usp=sharing)
+
+---
+
+You can place this section near the end of your README, just before the license or contact info. Let me know if you'd like to embed images or video demo links too!
 
 
 Now, go to [http://localhost:8501](http://localhost:8501) in your browser to use the app.
