@@ -35,7 +35,7 @@ pip install -r requirements.txt
 The project uses a locally optimized LLM for inference.
 ```bash
 # Run once to set up the model
-python app.py
+python main.py
 ```
 
 ---
