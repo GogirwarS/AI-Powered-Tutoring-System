@@ -39,10 +39,6 @@ python main.py
 ```
 
 ---
-## 📽️ Project Demonstration
-
-Watch the complete walkthrough of our system here:  
-🎥 **Demo Video**: [Watch Now](https://drive.google.com/file/d/1j-NK_xT0kVQlI_1CuA8y8KtiSWunL4XY/view?usp=sharing)
 
 ---
 
@@ -59,7 +55,12 @@ Then open your browser and go to:
 [http://127.0.0.1:5000](http://127.0.0.1:5000)
 
 ---
+## 📽️ Project Demonstration
 
+Watch the complete walkthrough of our system here:  
+🎥 **Demo Video**: [Watch Now](https://drive.google.com/file/d/1j-NK_xT0kVQlI_1CuA8y8KtiSWunL4XY/view?usp=sharing)
+
+---
 ## 📄 Project Documentation
 
 - 📘 **Final Report**: [View Report](https://drive.google.com/file/d/1JswsQXyTuEKJ55h4D00nIs7fLidGgdlZ/view?usp=sharing)  
