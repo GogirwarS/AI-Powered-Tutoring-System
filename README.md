@@ -38,7 +38,6 @@ The project uses a locally optimized LLM for inference.
 python main.py
 ```
 
----
 
 ---
 
