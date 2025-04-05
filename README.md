@@ -22,7 +22,8 @@ This project is a smart, adaptive learning assistant designed to enhance the stu
 ### 1️⃣ Clone the Repository
 ```bash
 git clone https://github.com/GogirwarS/AI-Powered-Tutoring-System.git
-cd AI-Powered-Tutoring-System
+cd AI-Powered-Tutoring-System/etutor
+
 ```
 
 ### 2️⃣ Install Dependencies
