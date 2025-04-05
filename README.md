@@ -31,22 +31,13 @@ Ensure you have Python 3.8+ installed.
 pip install -r requirement.txt
 ```
 
-### 3️⃣ Prepare the Model
-The project uses a locally optimized LLM for inference.
-```bash
-# Run once to set up the model
-python main.py
-```
-
-
----
 
 ## 🖥️ Running the Application
 
 Start your Flask server using:
 
 ```bash
-python app.py
+python main.py
 ```
 
 Then open your browser and go to:
