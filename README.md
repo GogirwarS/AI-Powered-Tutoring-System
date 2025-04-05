@@ -56,7 +56,7 @@ Then open your browser and go to:
 
 ## 📄 Project Documentation
 
-- 📘 **Final Report**: [View Report](https://drive.google.com/drive/folders/1IgPO32Q_o0aIkSnVzedlvs4I4-2yFsxa?usp=sharing)  
+- 📘 **Final Report**: [View Report](https://drive.google.com/file/d/1JswsQXyTuEKJ55h4D00nIs7fLidGgdlZ/view?usp=sharing)  
 - 📊 **Project Presentation**: [View PPT](https://drive.google.com/file/d/1xrCkmmisPvrbDyK5mI_bkB3RikvnmBF5/view?usp=sharing)
 
 ---
