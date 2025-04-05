@@ -28,7 +28,7 @@ cd AI-Powered-Tutoring-System
 ### 2️⃣ Install Dependencies
 Ensure you have Python 3.8+ installed.
 ```bash
-pip install -r requirements.txt
+pip install -r requirement.txt
 ```
 
 ### 3️⃣ Prepare the Model
