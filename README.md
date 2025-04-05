@@ -1,5 +1,5 @@
 
-# 🎓 AI-Powered Personalized Tutoring System
+# 🎓 AI-Powered Personalized Tutoring System (MOOC)
 
 This project is a smart, adaptive learning assistant designed to enhance the student learning experience. Powered by advanced AI, it provides real-time feedback, dynamic assessments, personalized learning paths, and a user-friendly interface for both students and educators.
 
