@@ -147,16 +147,21 @@ def logout():
 def assessment():
     from assessment import load_assessment_data, generate_assessment_questions, evaluate_assessment
     user_progress = UserProgress.query.filter_by(user_id=current_user.id).first()
+    
     if user_progress:
         flash('You have already completed the assessment', 'info')
         return redirect(url_for('dashboard'))
+
     if request.method == 'POST':
         answers = request.form.to_dict()
         data_analytics, full_stack, python = load_assessment_data()
         scores = evaluate_assessment(answers, data_analytics, full_stack, python)
-        recommended_course = max(scores, key=lambda k: scores[k])
+
+        #ML-based course & chapter recommendation
         from ml_assessment import evaluate_assessment_with_ml
-        recommended_chapters = evaluate_assessment_with_ml(scores)
+        recommended_course, recommended_chapters = evaluate_assessment_with_ml(scores)
+
+        # Store progress
         user_progress = UserProgress(
             user_id=current_user.id,
             recommended_course=recommended_course,
@@ -165,8 +170,8 @@ def assessment():
             assessment_score_full_stack=scores['Full Stack']
         )
         db.session.add(user_progress)
-        courses = ['python', 'data_analytics', 'full_stack']
-        for course in courses:
+
+        for course in ['python', 'data_analytics', 'full_stack']:
             current_chapter = recommended_chapters.get(course, 1)
             course_progress = CourseProgress(
                 user_id=current_user.id,
@@ -175,12 +180,15 @@ def assessment():
                 completed=False
             )
             db.session.add(course_progress)
+
         db.session.commit()
         flash('Assessment completed! Your personalized learning path is ready.', 'success')
         return redirect(url_for('dashboard'))
+
     data_analytics, full_stack, python = load_assessment_data()
     questions = generate_assessment_questions(data_analytics, full_stack, python)
     return render_template('assessment.html', questions=questions)
+
 
 @app.route('/dashboard')
 @login_required
